@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { Mail, MapPin, Phone } from 'lucide-react';
 
-const InstagramIcon = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-);
+// const InstagramIcon = () => (
+//   <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+// );
 
 const FacebookIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
@@ -33,9 +33,9 @@ const Footer = () => {
             Creando experiencias únicas y sofisticadas. Transformamos espacios en momentos inolvidables con atención personalizada a cada detalle.
           </p>
           <div className="flex space-x-4">
-            <a href="#" className="w-10 h-10 rounded-full border border-brand-beige/20 flex items-center justify-center hover:bg-brand-accent hover:border-brand-accent transition-colors">
+            {/* <a href="#" className="w-10 h-10 rounded-full border border-brand-beige/20 flex items-center justify-center hover:bg-brand-accent hover:border-brand-accent transition-colors">
               <InstagramIcon />
-            </a>
+            </a> */}
             <a href="https://www.facebook.com/share/1Bk396thC3/" className="w-10 h-10 rounded-full border border-brand-beige/20 flex items-center justify-center hover:bg-brand-accent hover:border-brand-accent transition-colors">
               <FacebookIcon />
             </a>
@@ -67,11 +67,11 @@ const Footer = () => {
             </li>
             <li className="flex items-center space-x-3">
               <Phone size={20} className="text-brand-accent shrink-0" />
-              <span>+1 234 567 890</span>
+              <span>591-68465444</span>
             </li>
             <li className="flex items-center space-x-3">
               <Mail size={20} className="text-brand-accent shrink-0" />
-              <span>contacto@eventarce.com</span>
+              <span>iarce5327@gmail.com</span>
             </li>
           </ul>
         </div>

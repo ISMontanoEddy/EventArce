@@ -1,10 +1,11 @@
 import { useState } from 'react';
-
+import boda1 from '../assets/EA_Boda1.png';
+import cumple1 from '../assets/EA_Cumpleanos1.png';
+import corporativo1 from '../assets/EA_Eventos1.png';
 const events = [
-  { id: 1, type: 'Boda Elegante', image: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&q=80&w=800' },
-  // { id: 2, type: 'Cena de Gala', image: 'https://images.unsplash.com/photo-1530103862676-de8892bf30ef?auto=format&fit=crop&q=80&w=800' },
-  { id: 3, type: 'Cumpleaños', image: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&q=80&w=800' },
-  { id: 4, type: 'Evento Corporativo', image: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=800' },
+  { id: 1, type: 'Bodas', image: boda1 },
+  { id: 2, type: 'Cumpleaños', image: cumple1 },
+  { id: 3, type: 'Evento Corporativo', image: corporativo1 },
 ];
 
 const Gallery = () => {
