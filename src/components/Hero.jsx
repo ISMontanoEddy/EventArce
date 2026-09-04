@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Phone } from 'lucide-react';
 import logo from '../assets/EA_Logo1.png';
 
@@ -27,14 +28,18 @@ const Hero = () => {
 
       {/* Top Navigation / Socials */}
       <div className="absolute top-0 w-full px-8 py-6 flex justify-between items-center z-10">
-        <div>
+        <div className="flex items-center space-x-3">
           <img src={logo} alt="Eventos Arze" className="h-12 w-12 object-cover rounded-full" />
+          <span className="font-serif font-bold text-lg text-brand-dark tracking-wide hidden md:inline-block">Eventos Arze</span>
         </div>
-        <div className="flex space-x-6 text-brand-dark/70">
+        <div className="flex items-center space-x-6 text-brand-dark/70">
+          <Link to="/album-digital" className="text-sm font-medium hover:text-brand-accent transition-colors hidden sm:inline-block">
+            Álbum Digital
+          </Link>
           {/* <a href="#" className="hover:text-brand-accent transition-colors"><InstagramIcon /></a> */}
           <a href="https://www.facebook.com/share/1Bk396thC3/" target="_blank" rel="noreferrer" className="hover:text-brand-accent transition-colors"><FacebookIcon /></a>
           {/* <a href="#" target="_blank" rel="noreferrer" className="hover:text-brand-accent transition-colors"><TikTokIcon /></a> */}
-          <a href="#" className="hover:text-brand-accent transition-colors"><Phone size={20} /></a>
+          <a href="https://wa.me/59168465444" target="_blank" rel="noreferrer" className="hover:text-brand-accent transition-colors"><Phone size={20} /></a>
         </div>
       </div>
 
@@ -48,12 +53,20 @@ const Hero = () => {
           Somos expertos en la organización integral de eventos. Desde la planificación hasta el último detalle decorativo, hacemos realidad la celebración de tus sueños.
         </p>
 
-        <button
-          className="bg-brand-dark text-brand-light px-8 py-4 rounded-full font-medium text-lg tracking-wide hover:bg-brand-accent transition-all duration-300 transform hover:-translate-y-1 shadow-lg hover:shadow-brand-accent/30"
-          onClick={() => window.open('https://wa.me/59168465444?text=Un%20gusto%2C%20Les%20hablo%20desde%20la%20pagina%20Web%20y%20estoy%20interesado%20en%20sus%20servicios', '_blank')}
-        >
-          Reserva tu Fecha
-        </button>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <button
+            className="w-full sm:w-auto bg-brand-dark text-brand-light px-8 py-4 rounded-full font-medium text-lg tracking-wide hover:bg-brand-accent transition-all duration-300 transform hover:-translate-y-1 shadow-lg hover:shadow-brand-accent/30 cursor-pointer"
+            onClick={() => window.open('https://wa.me/59168465444?text=Un%20gusto%2C%20Les%20hablo%20desde%20la%20pagina%20Web%20y%20estoy%20interesado%20en%20sus%20servicios', '_blank')}
+          >
+            Reserva tu Fecha
+          </button>
+          <Link
+            to="/album-digital"
+            className="w-full sm:w-auto px-8 py-4 rounded-full font-medium text-lg tracking-wide bg-white/80 backdrop-blur-sm text-brand-dark border border-brand-dark/10 hover:border-brand-accent hover:bg-white transition-all duration-300 transform hover:-translate-y-1 shadow-sm text-center"
+          >
+            Ver Álbum Digital
+          </Link>
+        </div>
       </div>
     </div>
   );

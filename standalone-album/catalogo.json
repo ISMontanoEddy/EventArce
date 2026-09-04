@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "nombre": "Sillas Tiffany Doradas",
+    "categoria": "Sillas",
+    "descripcion": "Acabado metálico dorado brillante con cojín de ecocuero marfil de alta densidad. El clásico indiscutible para bodas de gala y recepciones en salones elegantes de Cochabamba.",
+    "detalles": "Estructura reforzada monocuerpo. Apilables y con almohadilla acolchada lavable.",
+    "imagen": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 2,
+    "nombre": "Mesas Imperiales de Roble Rústico",
+    "categoria": "Mesas",
+    "descripcion": "Tablones macizos con vetas naturales y acabado en barniz mate satinado. Perfectas para banquetes campestres, quintas en Tiquipaya y bodas estilo boho o rústico chic.",
+    "detalles": "Medidas 2.80m x 1.10m. Capacidad para 10 a 12 comensales cómodamente sentados.",
+    "imagen": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 3,
+    "nombre": "Copas de Cristal Labrado Ámbar & Smoke",
+    "categoria": "Vajilla",
+    "descripcion": "Cristalería europea con relieve geométrico vintage y destellos tornasol. Aportan una nota sofisticada y vanguardista a la mesa de honor y cenas protocolares.",
+    "detalles": "Juegos completos para agua, vino tinto y espumante. Apto para eventos de alta gastronomía.",
+    "imagen": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 4,
+    "nombre": "Altar Circular Floral Romántico",
+    "categoria": "Altares",
+    "descripcion": "Estructura circular doble en hierro dorado, ornamentada con follaje de eucalipto, hortensias y rosas preservadas. El marco idílico para ceremonias civiles al atardecer cochabambino.",
+    "detalles": "Diámetro de 2.40m con base de contrapeso oculta para máxima estabilidad en césped o piso liso.",
+    "imagen": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 5,
+    "nombre": "Sillas Crossback Madera Campestre",
+    "categoria": "Sillas",
+    "descripcion": "Madera de olmo curvada artesanalmente con cruceta de acero y asiento en ratán natural. Ideales para celebraciones al aire libre y eventos campestres de día.",
+    "detalles": "Acabado vintage decapado suave. Muy confortables para ceremonias prolongadas.",
+    "imagen": "https://images.unsplash.com/photo-1544077960-604201fe74bc?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 6,
+    "nombre": "Manteles de Lino Crudo Texturizado",
+    "categoria": "Manteles",
+    "descripcion": "Tejido de lino 100% natural con caída fluida y dobladillos anchos artesanales. Crean una atmósfera cálida, orgánica y atemporal para montajes de lujo discreto.",
+    "detalles": "Disponibles en tonalidades arena, avena y hueso para mesas redondas e imperiales.",
+    "imagen": "https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 7,
+    "nombre": "Candelabros Esculturales de Herrería Negra",
+    "categoria": "Decoraciones",
+    "descripcion": "Candelabros de 3 a 5 brazos en hierro forjado acabado mate con tubos cortaviento de borosilicato. Generan una iluminación íntima y acogedora durante la velada.",
+    "detalles": "Alturas escalonadas (45cm a 75cm). Incluyen velas aromáticas de larga duración anti-goteo.",
+    "imagen": "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 8,
+    "nombre": "Vajilla Porcelana Borde Dorado Real",
+    "categoria": "Vajilla",
+    "descripcion": "Vajilla en fina porcelana blanca esmaltada con filamento dorado de 24k en los bordes. Diseñada para banquetes de 3 y 4 tiempos con distinción impecable.",
+    "detalles": "Set compuesto por plato base, plato hondo, plato trinche y plato de postre.",
+    "imagen": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 9,
+    "nombre": "Mesas Redondas de Banquete con Espejo",
+    "categoria": "Mesas",
+    "descripcion": "Mesa clásica circular para 10 invitados revestida con superficie de espejo templado biselado. Multiplica la luz de los centros de mesa y la cristalería.",
+    "detalles": "Diámetro de 1.80m, estructura plegable ultrarresistente de fácil nivelación.",
+    "imagen": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 10,
+    "nombre": "Gazebo Hexagonal de Madera & Velos",
+    "categoria": "Altares",
+    "descripcion": "Pérgola hexagonal en pino oregon tratado con cortinajes etéreos de gasa blanca y detalles florales colgantes. El santuario soñado para votos matrimoniales.",
+    "detalles": "Dimensiones 3.20m de altura y 2.50m de ancho. Montaje rápido con anclaje seguro.",
+    "imagen": "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 11,
+    "nombre": "Manteles de Terciopelo Verde Esmeralda",
+    "categoria": "Manteles",
+    "descripcion": "Terciopelo denso con brillo sutil y textura premium. Ideal para veladas nocturnas de invierno y bodas de estilo opulento en salones de Cochabamba.",
+    "detalles": "Resistente a arrugas y manchas leves, corte circular de 3.30m de caída completa hasta el suelo.",
+    "imagen": "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 12,
+    "nombre": "Lámparas Colgantes de Ratán & Fibras",
+    "categoria": "Decoraciones",
+    "descripcion": "Set de campanas tejidas a mano en fibras naturales con focos de filamento cálido Edison. Imprimen calidez y encanto bohemio en pérgolas y pistas de baile.",
+    "detalles": "Kit con cableado decorativo textil y regulador de intensidad lumínica (dimmer).",
+    "imagen": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 13,
+    "nombre": "Sillas Ghost Acrílico Transparente",
+    "categoria": "Sillas",
+    "descripcion": "Policarbonato cristalino moldeado por inyección, de líneas depuradas estilo Luis XVI. Brindan amplitud visual y modernidad sin sobrecargar el espacio del evento.",
+    "detalles": "Protección contra rayos UV para no amarillear en recepciones soleadas en Cochabamba.",
+    "imagen": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 14,
+    "nombre": "Mesas Cóctel Altas de Mármol & Bronce",
+    "categoria": "Mesas",
+    "descripcion": "Base en pedestal de bronce satinado con tope en mármol blanco Carrara. Perfectas para zonas de bienvenida, aperitivos y cócteles al aire libre.",
+    "detalles": "Altura estándar de 1.05m con base pesada antivuelco.",
+    "imagen": "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=1200&q=80"
+  }
+]

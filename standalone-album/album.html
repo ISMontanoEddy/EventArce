@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Álbum Digital - Eventos Arze | Catálogo y Sub-Álbumes</title>
+  <meta name="description" content="Sub-álbumes de mobiliario para eventos en Cochabamba: Mesas, Sillas, Vajilla, Altares, Manteles y Decoraciones.">
+  
+  <!-- Fuentes Google: Playfair Display e Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="album.css">
+</head>
+<body>
+
+  <!-- Barra Superior Simple -->
+  <header class="top-nav">
+    <div class="top-nav-inner">
+      <div class="brand">
+        <span class="brand-title">Eventos Arze</span>
+        <span class="brand-sub">Cochabamba</span>
+      </div>
+      <a href="https://wa.me/59168465444" target="_blank" class="nav-contact">
+        Contactar por WhatsApp
+      </a>
+    </div>
+  </header>
+
+  <main class="album-section">
+    
+    <!-- Loader inicial -->
+    <div class="catalog-loader" id="catalog-loader">
+      <div class="spinner"></div>
+      <p>Cargando colecciones...</p>
+    </div>
+
+    <!-- =======================================================
+         VISTA 1: CUADRÍCULA DE SUB-ÁLBUMES
+         ======================================================= -->
+    <div id="subalbums-view" style="display: none;">
+      <header class="album-header">
+        <div class="album-badge">✨ Catálogo Fotográfico Exclusivo</div>
+        <h1 class="album-title">Álbumes de Mobiliario & Ambientación</h1>
+        <div class="album-divider"></div>
+        <p class="album-description">
+          Selecciona una categoría para abrir su sub-álbum correspondiente y explorar cada pieza disponible para tu evento en Cochabamba.
+        </p>
+      </header>
+
+      <!-- Cuadrícula Grid con Portadas de Sub-Álbumes -->
+      <div class="subalbums-grid" id="subalbums-grid">
+        <!-- Generado dinámicamente por album.js -->
+      </div>
+
+      <!-- Banner Ver Todo -->
+      <div class="all-collection-banner">
+        <div>
+          <span class="banner-tag">Colección Completa</span>
+          <h2>¿Deseas ver todo el catálogo en una sola galería?</h2>
+          <p>Explora todo nuestro mobiliario y decoración con filtros en tiempo real y visor para TV.</p>
+        </div>
+        <button id="btn-view-all" class="btn-primary">
+          Ver Todas las Colecciones
+        </button>
+      </div>
+    </div>
+
+    <!-- =======================================================
+         VISTA 2: DENTRO DEL SUB-ÁLBUM SELECCIONADO
+         ======================================================= -->
+    <div id="subalbum-detail-view" style="display: none;">
+      
+      <!-- Barra de navegación del sub-álbum -->
+      <div class="subalbum-bar">
+        <button id="btn-back-to-albums" class="btn-back">
+          &#8592; Volver a Álbumes
+        </button>
+        <div class="breadcrumb" id="breadcrumb-text">
+          Álbum Digital / <span>Categoría</span>
+        </div>
+      </div>
+
+      <!-- Encabezado del Sub-Álbum -->
+      <div class="subalbum-hero">
+        <div>
+          <span class="album-badge" id="subalbum-badge">Sub-Álbum</span>
+          <h2 class="subalbum-title" id="subalbum-title">Nombre del Sub-Álbum</h2>
+          <p class="subalbum-desc" id="subalbum-desc">Descripción de la categoría seleccionada.</p>
+        </div>
+        <div class="subalbum-counter" id="subalbum-counter">0 piezas</div>
+      </div>
+
+      <!-- Selector Rápido de Categorías (Píldoras) -->
+      <nav class="filters-container" id="filters-container">
+        <!-- Botones generados dinámicamente -->
+      </nav>
+
+      <!-- Cuadrícula Dinámica del Sub-Álbum -->
+      <div class="catalog-grid" id="catalog-grid" aria-live="polite">
+        <!-- Ítems inyectados por album.js -->
+      </div>
+    </div>
+
+  </main>
+
+  <!-- =======================================================
+       VISOR LIGHTBOX FULLSCREEN (SMART TV Y TOUCH)
+       ======================================================= -->
+  <div class="lightbox-modal" id="lightbox-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Cerrar visor">&times;</button>
+    <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Anterior">&#10094;</button>
+    <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Siguiente">&#10095;</button>
+
+    <div class="lightbox-dialog">
+      <div class="lightbox-image-wrap">
+        <img id="lightbox-img" src="" alt="Detalle del producto">
+      </div>
+      <aside class="lightbox-info">
+        <div>
+          <span class="lightbox-tag" id="lightbox-tag">Categoría</span>
+          <h2 class="lightbox-title" id="lightbox-title">Título</h2>
+          <p class="lightbox-desc" id="lightbox-desc">Descripción</p>
+          <div class="lightbox-details" id="lightbox-details">
+            <h4>Especificaciones</h4>
+            <p id="lightbox-details-text"></p>
+          </div>
+        </div>
+        <div>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="btn-whatsapp" id="lightbox-whatsapp">
+            Consultar por WhatsApp
+          </a>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <script src="album.js"></script>
+</body>
+</html>

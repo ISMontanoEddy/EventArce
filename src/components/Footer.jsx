@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Mail, MapPin, Phone } from 'lucide-react';
 
 // const InstagramIcon = () => (
@@ -49,7 +50,11 @@ const Footer = () => {
             <li><a href="#" className="hover:text-brand-accent transition-colors">Organización Integral</a></li>
             <li><a href="#" className="hover:text-brand-accent transition-colors">Decoración y Ambientación</a></li>
             <li><a href="#" className="hover:text-brand-accent transition-colors">Catering y Coctelería</a></li>
-            <li><a href="#" className="hover:text-brand-accent transition-colors">Alquiler de Mobiliario</a></li>
+            <li>
+              <Link to="/album-digital" className="text-brand-accent font-medium hover:underline transition-colors flex items-center gap-1">
+                Álbum Digital (Catálogo) &rarr;
+              </Link>
+            </li>
           </ul>
         </div>
 

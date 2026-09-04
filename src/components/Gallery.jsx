@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import boda1 from '../assets/EA_Boda1.png';
 import cumple1 from '../assets/EA_Cumpleanos1.png';
 import corporativo1 from '../assets/EA_Eventos1.png';
@@ -20,7 +21,7 @@ const Gallery = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {events.map((evt) => (
             <div 
               key={evt.id} 
@@ -39,6 +40,17 @@ const Gallery = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Call to Action hacia el Álbum Digital */}
+        <div className="mt-14 text-center">
+          <Link
+            to="/album-digital"
+            className="inline-flex items-center gap-2 bg-brand-beige/80 hover:bg-brand-dark hover:text-white text-brand-dark px-8 py-4 rounded-full font-medium text-base border border-brand-dark/10 hover:border-brand-dark transition-all duration-300 shadow-xs hover:shadow-md transform hover:-translate-y-0.5"
+          >
+            <span>Ver Catálogo Completo de Equipamiento & Mobiliario</span>
+            <span className="text-brand-accent font-bold">&rarr;</span>
+          </Link>
         </div>
       </div>
     </section>
