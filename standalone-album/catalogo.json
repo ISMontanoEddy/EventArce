@@ -110,5 +110,157 @@
     "descripcion": "Base en pedestal de bronce satinado con tope en mármol blanco Carrara. Perfectas para zonas de bienvenida, aperitivos y cócteles al aire libre.",
     "detalles": "Altura estándar de 1.05m con base pesada antivuelco.",
     "imagen": "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 15,
+    "nombre": "Champanero tradicional",
+    "categoria": "Vajilla",
+    "descripcion": "Copa clásica para champán y espumantes con silueta estilizada para brindis nupciales y recepciones de gala.",
+    "detalles": "Cristal transparente de alta pureza con tallo fino y borde pulido.",
+    "imagen": "/assets/vajillas/Vajilla1.jpeg"
+  },
+  {
+    "id": 16,
+    "nombre": "Vaso Huracan",
+    "categoria": "Vajilla",
+    "descripcion": "Vaso de silueta curvilínea ideal para coctelería tropical, combinados y bebidas refrescantes.",
+    "detalles": "Vidrio grueso resistente con base sólida para barras y recepciones.",
+    "imagen": "/assets/vajillas/Vajilla2.jpeg"
+  },
+  {
+    "id": 17,
+    "nombre": "Copa de agua",
+    "categoria": "Vajilla",
+    "descripcion": "Copa señorial de cáliz generoso para el servicio de agua en mesas de banquetes y cenas protocolares.",
+    "detalles": "Cristal de brillo impecable, diseño armonioso para acompañar copas de vino.",
+    "imagen": "/assets/vajillas/Vajilla3.jpeg"
+  },
+  {
+    "id": 18,
+    "nombre": "Copa de vino",
+    "categoria": "Vajilla",
+    "descripcion": "Copa refinada para cata y degustación de vinos, optimizada para resaltar aromas y notas en mesa.",
+    "detalles": "Cáliz amplio con boca afinada para oxigenación óptima en banquetes de gala.",
+    "imagen": "/assets/vajillas/Vajilla4.jpeg"
+  },
+  {
+    "id": 19,
+    "nombre": "Champan Brunello",
+    "categoria": "Vajilla",
+    "descripcion": "Copa flauta estilo Brunello con líneas esbeltas para realzar el perlage de la champaña y espumantes.",
+    "detalles": "Diseño contemporáneo de alta gama con pie alargado y base estable.",
+    "imagen": "/assets/vajillas/Vajilla5.jpeg"
+  },
+  {
+    "id": 20,
+    "nombre": "Martini",
+    "categoria": "Vajilla",
+    "descripcion": "Copa cónica icónica para cócteles clásicos como Martini, Cosmopolitan y aperitivos de bienvenida.",
+    "detalles": "Vidrio cristalino de borde fino que mantiene la temperatura perfecta del cóctel.",
+    "imagen": "/assets/vajillas/Vajilla6.jpeg"
+  },
+  {
+    "id": 21,
+    "nombre": "coctelero (vino)",
+    "categoria": "Vajilla",
+    "descripcion": "Copa versátil para coctelería a base de vino, sangrías premium y spritz en barras abiertas.",
+    "detalles": "Cuerpo redondeado y pie ergonómico para una presentación sofisticada.",
+    "imagen": "/assets/vajillas/Vajilla7.jpeg"
+  },
+  {
+    "id": 22,
+    "nombre": "coctelero 2",
+    "categoria": "Vajilla",
+    "descripcion": "Copa de diseño contemporáneo para mixología de autor y bebidas especiales.",
+    "detalles": "Cristal transparente con acabado refinado, ideal para barras de autor.",
+    "imagen": "/assets/vajillas/Vajilla8.jpeg"
+  },
+  {
+    "id": 23,
+    "nombre": "Shot",
+    "categoria": "Vajilla",
+    "descripcion": "Vasos tequileros y de chupito para licores digestivos y brindis dinámicos en celebraciones.",
+    "detalles": "Vidrio con fondo grueso reforzado y capacidad estándar de 1.5 a 2 oz.",
+    "imagen": "/assets/vajillas/Vajilla9.jpeg"
+  },
+  {
+    "id": 24,
+    "nombre": "Colling (Traguero)",
+    "categoria": "Vajilla",
+    "descripcion": "Vaso Collins alto de corte cilíndrico para tragos largos, gin tonic, refrescos y cócteles con hielo.",
+    "detalles": "Vidrio templado de gran durabilidad y estética minimalista.",
+    "imagen": "/assets/vajillas/Vajilla10.jpeg"
+  },
+  {
+    "id": 25,
+    "nombre": "Mojito",
+    "categoria": "Vajilla",
+    "descripcion": "Vaso diseñado para mojitos, caipiriñas y bebidas maceradas con hielo frappé.",
+    "detalles": "Estructura sólida con relieve decorativo para mejor agarre.",
+    "imagen": "/assets/vajillas/Vajilla11.jpeg"
+  },
+  {
+    "id": 26,
+    "nombre": "Chop cervecero",
+    "categoria": "Vajilla",
+    "descripcion": "Tarro cervecero tradicional con asa robusta para servicio de cerveza fría y tirada.",
+    "detalles": "Vidrio grueso con retención térmica prolongada y base estriada.",
+    "imagen": "/assets/vajillas/Vajilla12.jpeg"
+  },
+  {
+    "id": 27,
+    "nombre": "Champam Llirio",
+    "categoria": "Vajilla",
+    "descripcion": "Copa exclusiva para espumantes con silueta inspirada en pétalos de lirio, un detalle romántico único.",
+    "detalles": "Cristal fino labrado con destellos elegantes al reflejo de la iluminación.",
+    "imagen": "/assets/vajillas/Vajilla13.jpeg"
+  },
+  {
+    "id": 28,
+    "nombre": "Cervecero",
+    "categoria": "Vajilla",
+    "descripcion": "Vaso cervecero estilizado de diseño cónico para cervezas rubias y bebidas refrescantes.",
+    "detalles": "Forma esbelta que favorece la formación y persistencia de la espuma.",
+    "imagen": "/assets/vajillas/Vajilla14.jpeg"
+  },
+  {
+    "id": 29,
+    "nombre": "Plato 1",
+    "categoria": "Vajilla",
+    "descripcion": "Plato para servicio de banquetes con terminación artesanal de gala para montajes destacados.",
+    "detalles": "Cerámica esmaltada de alta calidad, resistente a despostilladuras.",
+    "imagen": "/assets/vajillas/Vajilla15.jpeg"
+  },
+  {
+    "id": 30,
+    "nombre": "Plato 2",
+    "categoria": "Vajilla",
+    "descripcion": "Plato llano trinche para plato principal, con diseño refinado que realza la gastronomía.",
+    "detalles": "Porcelana vitrificada de acabado suave y reborde elegante.",
+    "imagen": "/assets/vajillas/Vajilla16.jpeg"
+  },
+  {
+    "id": 31,
+    "nombre": "Plato 3",
+    "categoria": "Vajilla",
+    "descripcion": "Plato de presentación para entradas y postres gourmet en eventos protocolares.",
+    "detalles": "Diseño equilibrado con formato contemporáneo de fácil servicio.",
+    "imagen": "/assets/vajillas/Vajilla17.jpeg"
+  },
+  {
+    "id": 32,
+    "nombre": "Tenedores Dorado",
+    "categoria": "Vajilla",
+    "descripcion": "Juego de tenedores con acabado en oro satinado brillante para mesas de banquete de lujo.",
+    "detalles": "Acero inoxidable con recubrimiento de titanio dorado de alta resistencia.",
+    "imagen": "/assets/vajillas/Vajilla18.jpeg"
+  },
+  {
+    "id": 33,
+    "nombre": "Tenedores Plateado",
+    "categoria": "Vajilla",
+    "descripcion": "Tenedores clásicos en acabado plata pulida espejo para celebraciones formales y elegantes.",
+    "detalles": "Acero inoxidable 18/10 con balance ergonómico superior.",
+    "imagen": "/assets/vajillas/Vajilla19.jpeg"
   }
 ]
